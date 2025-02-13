@@ -1,0 +1,1 @@
+a:3:{i:0;a:3:{s:4:"nama";s:3:"Eko";s:4:"umur";i:30;s:6:"alamat";s:6:"Subang";}i:1;a:3:{s:4:"nama";s:4:"Budi";s:4:"umur";i:35;s:6:"alamat";s:7:"Bandung";}i:2;a:3:{s:4:"nama";s:4:"Joko";s:4:"umur";i:33;s:6:"alamat";s:7:"Cirebon";}}
