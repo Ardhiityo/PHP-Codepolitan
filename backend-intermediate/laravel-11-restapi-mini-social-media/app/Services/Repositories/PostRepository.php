@@ -11,7 +11,7 @@ class PostRepository implements PostService
 {
     public function getAllPosts()
     {
-        return Post::paginate(perPage: 10);
+        return Post::with('comments', 'likes')->paginate(perPage: 10);
     }
 
     public function createPost($post)

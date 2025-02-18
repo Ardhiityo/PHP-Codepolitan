@@ -4,7 +4,6 @@ namespace Tests\Feature;
 
 use Tests\TestCase;
 use Database\Seeders\UserSeeder;
-use Illuminate\Support\Facades\Log;
 
 class AuthControllerTest extends TestCase
 {
@@ -17,7 +16,6 @@ class AuthControllerTest extends TestCase
             "password" => "rahasia"
         ])
             ->assertStatus(200);
-
 
         self::assertNotNull($data->json('data.0.user.fullname'));
         self::assertNotNull($data->json('data.0.user.email'));

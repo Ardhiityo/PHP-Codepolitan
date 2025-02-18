@@ -18,5 +18,11 @@ class UserSeeder extends Seeder
             'email' => 'test@test',
             'password' => 'rahasia'
         ]);
+
+        User::create([
+            'fullname' => 'testing',
+            'email' => 'testing@testing',
+            'password' => 'rahasia'
+        ]);
     }
 }

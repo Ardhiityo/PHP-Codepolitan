@@ -8,6 +8,12 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Comment extends Model
 {
+    protected $fillable = [
+        'user_id',
+        'content',
+        'post_id'
+    ];
+
     public function posts(): HasMany
     {
         return $this->hasMany(Post::class);
